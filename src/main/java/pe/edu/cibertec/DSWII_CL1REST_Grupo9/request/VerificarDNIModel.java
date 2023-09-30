@@ -1,6 +1,11 @@
-package pe.edu.cibertec.DSWII_CL1REST_Grupo9.model;
+package pe.edu.cibertec.DSWII_CL1REST_Grupo9.request;
 
-public class Persona {
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class VerificarDNIModel {
     private int anoNacimiento;
 
     public int getAnoNacimiento() {

@@ -5,8 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class VerificarDNIRequest {
+public class NumerosParesDescendentesRequest {
 
-    private int anoActual;
-    private int edad;
+    private int num1;
 }
